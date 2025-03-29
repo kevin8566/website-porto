@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - KEVIN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider"></div>
+        </label>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-square">
+                    <div class="logo-icon">&lt;/&gt;</div>
+                </div>
+                <h1 class="logo-text">KEVIN</h1>
+            </div>
+            <nav>
+                <!-- Checkbox tersembunyi untuk menu mobile -->
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+                <!-- Label yang berfungsi sebagai hamburger button -->
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Lihat beberapa karya terbaru saya</p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="app">App Design</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+        
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="IMG/web.jpg" alt="Web Development Agency">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Web Development Agency</h3>
+                                    <p>Web Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="IMG/original.jpg" alt="WordPress Themes">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>WordPress Themes</h3>
+                                    <p>Web Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-image">
+                            <img src="IMG/g2.png" alt="Mobile App UI">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Mobile App UI</h3>
+                                    <p>UI/UX Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="IMG/g2.png" alt="Portfolio Website">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Portfolio Website</h3>
+                                    <p>Web Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image">
+                            <img src="IMG/app.jpg" alt="Food Delivery App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Food Delivery App</h3>
+                                    <p>App Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-image">
+                            <img src="IMG/hh.png" alt="E-learning Platform">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>E-learning Platform</h3>
+                                    <p>UI/UX Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="IMG/g2.png" alt="Brand Identity">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Brand Identity</h3>
+                                    <p>Branding</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image">
+                            <img src="IMG/g2.png" alt="Fitness App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Fitness App</h3>
+                                    <p>App Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-image">
+                            <img src="IMG/g2.png" alt="Travel App UI">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-content">
+                                    <h3>Travel App UI</h3>
+                                    <p>UI/UX Design</p>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-square">
+                            <div class="logo-icon">&lt;/&gt;</div>
+                        </div>
+                        <div class="logo-text">KEVIN</div>
+                    </div>
+                    <p>Membuat inovasi pengalaman digital menjadi lebih maju</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">App Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h3>Contact</h3>
+                    <ul class="footer-contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Surakarta, Indonesia</li>
+                        <li><i class="fas fa-envelope"></i> kevinputrapratama887@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +62 821 1478 2698</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Pure CSS Theme Toggle
+        const checkbox = document.getElementById('checkbox');
+        const htmlElement = document.documentElement;
+
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                htmlElement.classList.add('light-mode');
+            } else {
+                htmlElement.classList.remove('light-mode');
+            }
+        });
+        
+        // Portfolio filtering functionality - tetap membutuhkan JavaScript
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        if (filterButtons.length > 0 && portfolioItems.length > 0) {
+            // Filter portfolio items based on category
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Show all items if "all" is selected, otherwise filter by category
+                    if (filterValue === 'all') {
+                        portfolioItems.forEach(item => {
+                            item.style.display = 'block';
+                            // Add animation
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 50);
+                        });
+                    } else {
+                        portfolioItems.forEach(item => {
+                            if (item.getAttribute('data-category') === filterValue) {
+                                item.style.display = 'block';
+                                // Add animation
+                                setTimeout(() => {
+                                    item.style.opacity = '1';
+                                    item.style.transform = 'scale(1)';
+                                }, 50);
+                            } else {
+                                item.style.opacity = '0';
+                                item.style.transform = 'scale(0.8)';
+                                setTimeout(() => {
+                                    item.style.display = 'none';
+                                }, 300);
+                            }
+                        });
+                    }
+                });
+            });
+        }
+
+        // Add initial animation state to portfolio items
+        portfolioItems.forEach(item => {
+            item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            item.style.opacity = '1';
+            item.style.transform = 'scale(1)';
+        });
+    </script>
+</body>
+</html>
